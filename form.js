@@ -1,12 +1,11 @@
 import React from "react";
-
 function create() {
   return (
     <form>
-      <h2 align="center"> REGISTER NOW</h2>
+      <h2> REGISTER NOW</h2>
       <label>
         {" "}
-        Name:
+        <div class="heads">Name:</div>
         <input
           class="box"
           type="text"
@@ -18,7 +17,7 @@ function create() {
       </label>
       <label>
         {" "}
-        Email:
+        <div class="heads">Email:</div>
         <input
           class="box"
           type="email"
@@ -30,7 +29,7 @@ function create() {
       </label>
       <label>
         {" "}
-        Password:
+        <div class="heads">Password:</div>
         <input
           class="box"
           type="password"
@@ -41,7 +40,7 @@ function create() {
         />
       </label>
       <label>
-        Phone number:
+        <div class="heads">Phone number:</div>
         <input
           class="box"
           type="text"
@@ -58,7 +57,7 @@ function create() {
           name="submitDetails"
           value="Submit"
         >submit</button>
-      <div>
+      <div class="heads">
         already have an account?<a href="">login</a>
       </div>
     </form>
